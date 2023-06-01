@@ -1,0 +1,66 @@
+.mainvisual {
+    background: blue;
+    height: 1000px;
+    right: 0;
+    bottom: 0;
+}
+
+.mainvisual .inner {
+
+    max-width: 1200px;
+
+    width: 100%;
+    height: 150px;
+
+    background: yellow;
+}
+
+.mainvisual .inner ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 150px;
+    padding: 0 50px;
+    top: 50%
+}
+
+
+
+
+
+
+.sec {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sec .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.sec h2 {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sec p {
+    margin-bottom: 20px;
+}
+
+.sce .inner ul>li {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sc01 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sc01 .inner {
+    position: relative;
+    display: grid;
+}
